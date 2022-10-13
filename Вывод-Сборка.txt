@@ -1,0 +1,7 @@
+﻿Сборка начата…
+1>------ Сборка начата: проект: cppm-homeWorks02.03, Конфигурация: Debug x64 ------
+1>cppm-homeWorks02.03.cpp
+1>C:\Users\Ершов\source\repos\cppm-homeWorks02.03\cppm-homeWorks02.03\cppm-homeWorks02.03.cpp(50,12): error C2086: adress ad: переопределение
+1>C:\Users\Ершов\source\repos\cppm-homeWorks02.03\cppm-homeWorks02.03\cppm-homeWorks02.03.cpp(38): message : см. объявление "ad"
+1>Сборка проекта "cppm-homeWorks02.03.vcxproj" завершена с ошибкой.
+========== Сборка: успешно: 0, сбой: 1, в актуальном состоянии: 0, пропущено: 0==========

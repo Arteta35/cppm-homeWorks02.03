@@ -13,15 +13,6 @@ struct adress {
 
 };
 
-struct adress_old {
-
-    std::string sity;
-    std::string street;
-    int number_house;
-    int apartment_number;
-    int index;
-
-};
 
 void print_adress(adress& ad) {
 
@@ -35,19 +26,15 @@ int main(int argc, char** argv)
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
 
-    adress_old ad_o = { "Москва", "Маяковского", 12, 36, 123258};
+    adress ad = { "Москва", "Маяковского", 12, 36, 123258};
 
     std::cout << "Старый адресс: " << std::endl << std::endl;
 
-    //print_adress(ad_o); Ошибка тут
+    print_adress(ad);
 
-    std::cout << "город: " << ad_o.sity << std::endl << "улица: " << ad_o.street << std::endl << "номер дома: " <<
-        ad_o.number_house << std::endl << "номер квартиры: " << ad_o.apartment_number << std::endl << "индекс: " << ad_o.index << 
-        std::endl;
+    std::cout << std::endl << "-------------------------" << std::endl;
 
     std::cout << "Введите новый адресс: " << std::endl;
-
-    adress ad;
 
     std::cout << std::endl << "Город: ";
 
